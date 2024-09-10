@@ -32,4 +32,4 @@ poly = np.poly1d(coeffs)
 plt.plot(n_values, poly(n_values), label='Fitted Curve (n^2)', linestyle='--')
 
 plt.legend()
-plt.show()
+plt.show() # the output graph of this program is saved in plot.png
